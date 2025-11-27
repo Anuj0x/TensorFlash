@@ -1,0 +1,12 @@
+# Core dependencies
+torch>=1.9.0
+numpy>=1.19.0
+
+# Optional dependencies for development
+# pytest>=6.0         # For testing
+# pytest-cov          # For coverage reports
+# black               # For code formatting
+# flake8              # For linting
+# mypy                # For type checking
+# sphinx              # For documentation
+# sphinx-rtd-theme    # For documentation theme
