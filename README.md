@@ -218,33 +218,4 @@ python -m pytest tests/
 
 # Build with debug symbols
 python setup.py build_ext --inplace --debug
-```
-
-## 📄 License
-
-This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Original Flash Attention paper: ["FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness"](https://arxiv.org/abs/2205.14135)
-- Tri Dao and team at Stanford for the original implementation
-- PyTorch team for the excellent CUDA extension API
-
-## 📚 Citation
-
-If you use this implementation in your research, please cite:
-
-```bibtex
-@article{dao2022flashattention,
-  title={FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness},
-  author={Dao, Tri and Fu, Daniel Y. and Ermon, Stefano and Rudra, Atri and R{\'e}, Christopher},
-  journal={Advances in Neural Information Processing Systems},
-  volume={35},
-  pages={16344--16359},
-  year={2022}
-}
-```
-
----
-
-**Note**: This is a modernized implementation focused on clarity, performance, and extensibility. For the most up-to-date production version, see the official [FlashAttention](https://github.com/Dao-AILab/flash-attention) repository.
+``
